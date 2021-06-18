@@ -1,0 +1,93 @@
+.form-container{
+    margin-top: 0em;
+    margin-left: 19em;
+}
+/* h3{ */
+    /* color: darkcyan;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 3em;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 10px;
+    text-align: center;
+    letter-spacing: 10px; */
+/* } */
+.form-container{
+    align-items: left;
+    box-shadow: -2px -2px 3px #808080;
+}
+div.container input{
+    width: 120%;
+    margin-left: -4em;
+    margin-top: 15px;
+    height: 42px;
+    padding-left: 1em;
+    text-align: left;
+    border: none;
+    background: rgba(0,0,0,0.1);
+    color: #11cf4d;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5)inset;
+    font-size: 20px;
+    letter-spacing: 1px;
+    border-radius: 25px;    
+}
+/* submit button */
+.form-container form input[type="submit"]{
+    width: 75%;
+    height: 25%;
+    font-size: 25px;
+    margin-left: -2em;
+    font-family: 'Arial Narrow Bold', sans-serif, Tahoma, sans-serif;
+    font-weight: bold;
+    color: whitesmoke;
+    cursor: pointer;
+    background: linear-gradient(90deg, deeppink, blueviolet);
+    margin-top: 30px;
+    border-radius: 50px;
+}
+.form-container form input[type="submit"]:hover{
+    letter-spacing: 4px;
+}
+select {
+      margin-top: 3px;
+      margin-left: 3em;
+      background-color: #f5f5f5;
+      color: #808080;
+      width: 15em;
+      height: 3em;
+      border-radius: 15px;
+ }
+ select:hover{
+     color: #11cf4d;
+ }
+ optgroup{
+     color: #055e21;
+ }
+ option{
+     text-align: right;
+     color: #11cf4d;
+ }
+ optgroup:hover{
+     color: #f5f5f5;
+     background-color: #11cf4d;
+ }
+ .item4 button{
+    padding: 1px 1px;
+    margin: 35px;
+    margin-left: 12px;
+    margin-right: 25px;
+    width: 6em;
+    height: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #055e21;
+    color: #f5f5f5;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: -3px 3px 2px grey;
+}
+.item4 button:hover{
+    background-color: #11cf4d;
+    color: #f5f5f5;
+}
